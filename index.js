@@ -12,7 +12,7 @@ client.on('guildMemberAdd', async member => {
   let font = await jimp.loadFont(jimp.FONT_SANS_32_BLACK);
   let font64 = await jimp.loadFont(jimp.FONT_SANS_64_BLACK);
   let mask = await jimp.read('https://cdn.discordapp.com/attachments/486658420951482400/559804479432687617/Mask.png');
-  let welcome = await jimp.read('https://cdn.discordapp.com/attachments/486658420951482400/559882154092396585/w5.png');
+  let welcome = await jimp.read('https://cdn.discordapp.com/attachments/486658420951482400/559902076696526848/w6.png');
 
   jimp.read(member.user.displayAvatarURL).then(avatar => {
     avatar.resize(318, 317);
